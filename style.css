@@ -1,0 +1,56 @@
+body {
+background-color: rgb(198, 218, 241);
+text-align: center;
+color: rgb(245, 237, 216);
+}
+
+h1{
+    color:rgb(247, 238, 209);
+    font-family: gorditas, gorditas bold ;
+}
+
+.gorditas-regular {
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gorditas-bold {
+    font-family: "Gorditas", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .product{
+    display: block;
+
+  }
+
+  /*------------------------------------------------------------------------*/
+
+  ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    background-color: antiquewhite;
+    display:flex;
+    justify-content:left;
+    position: sticky;
+    top: 0;
+  }
+
+  ul li a {
+    display:block;
+    color: rgb(95, 132, 187);
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul li a:hover{
+    background-color: rgb(250, 225, 243);
+  }
+
+  ul li: :last-child{
+
+
+  }
