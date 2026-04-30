@@ -1,0 +1,187 @@
+body {
+background-color: rgb(184, 206, 231);
+text-align: center;
+color: rgb(245, 237, 216);
+padding-left: 1%;
+}
+
+/*h1 & font*/
+h1{
+    color:rgb(247, 238, 209);
+    font-family: gorditas, gorditas bold ;
+    text-shadow: 0 0 10px #9ec3ce;
+
+}
+
+.gorditas-regular {
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gorditas-bold {
+    font-family: "Gorditas", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /*Navigation Bar Code*/
+  ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    background-color: antiquewhite;
+    display:flex;
+    justify-content:left;
+    position: sticky;
+    top: 0;
+  }
+
+  ul li a {
+    display:block;
+    color: rgb(95, 132, 187);
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul li a:hover{
+    background-color: rgb(250, 225, 243);
+  }
+  /*Navigation Bar Code END*/
+
+  h2{
+    color: rgb(30, 34, 92);
+  }
+
+  .product{
+    color: rgb(30, 34, 92);
+  }
+  
+  /*````````````````````Image Carousel`````````````````````*/
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #e1e2ec;
+  text-shadow: 0 0 10px #000000;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #142344;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/*---------------------------------------------------*/
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input, textarea {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+#response {
+  margin-top: 15px;
+  font-weight: bold;
+}
